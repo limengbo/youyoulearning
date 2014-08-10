@@ -41,4 +41,16 @@ public class ReplyDaoImpl implements ReplyDao {
 		}
 		return list;
 	}
+
+	@Override
+	public Reply findReply(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int findCountReply(int Id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

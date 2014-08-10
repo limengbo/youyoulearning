@@ -12,4 +12,6 @@ public interface ReplyDao {
 	public int updateReply(Reply reply);// 修改回复
 
 	public List<Reply> findListReply(int page, int TopicId);// 根据某主题显示第几页的列表
+	public Reply findReply(int id);//通过回复 ID 找到对应回复信息
+	public int findCountReply(int Id);//根据主题 ID 找到当前回复数
 }

@@ -44,4 +44,10 @@ public class TopicDaoImpl implements TopicDao {
 		return list;
 	}
 
+	@Override
+	public int findCountTopic(int boardId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
